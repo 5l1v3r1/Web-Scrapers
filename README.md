@@ -1,5 +1,4 @@
-<snippet>
-  <content><![CDATA[
+
 # ${1:Web-Scrapers}
 TODO: Finish and commit craigslist scraper
 ## Installation
@@ -13,6 +12,4 @@ Currently, the image downloader is limited to 33 image downloads and starts with
 1. Fork it!
 2. Feel free to collaborate and add features, 
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+
