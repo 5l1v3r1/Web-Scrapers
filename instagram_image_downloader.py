@@ -22,10 +22,10 @@ If you have a slower internet connection, it is useful, otherwise you won't noti
 # adding the chrome driver to my environment variables path on Windows.
 
 path_to_pictures = os.path.normpath(
-    'C:/Users/Phil Miller/Pictures/InstaScraper')
+    'C:/Users/USERNAME/Pictures/InstaScraper')
 
 path_to_chrome_driver = os.path.normpath(
-    'C:/Users/Phil Miller/Downloads/chromedriver')
+    'C:/Users/USERNMAME/Downloads/chromedriver')
 
 # Add your USERNAME and Password in the __init__ function,
 # Target profile is the profile that you would like to scrape / download images from
