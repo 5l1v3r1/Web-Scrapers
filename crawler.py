@@ -31,7 +31,7 @@ def hash_array():
         # print(r, r.url)
         if r.status_code == 200:
             print("[+] Discovered URL! : " + str(r) + "\t\t\t" + str(r.url))
-        if r.status_code == 301:
+        elif r.status_code == 301:
             print("[+] Discovered URL! : " + str(r) + "\t\t\t" + str(r.url))
         elif r.status_code == 302:
             print("[+] Discovered URL! : " + str(r) + "\t\t\t" + str(r.url))
