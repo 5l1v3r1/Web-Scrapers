@@ -17,10 +17,6 @@ I added tqdm to make the downloading of Images on the command line look nicer wi
 If you have a slower internet connection, it is useful, otherwise you won't notice much of a difference. : )
 """
 
-# Since my UserName has a space in it, I created a seperate variable to hold the path to
-# my Pictures folder, Same goes for the chrome driver executable file because I didn't feel like
-# adding the chrome driver to my environment variables path on Windows.
-
 path_to_pictures = os.path.normpath(
     'C:/Users/USERNAME/Pictures/InstaScraper')
 
